@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+Of course! Here's the **English version** of the `README.md` for your JavaScript quiz app using TypeScript, React, Vite, and Zustand:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# JavaScript Quiz App
 
-Currently, two official plugins are available:
+This project is a simple and interactive **JavaScript quiz application** built with **React**, **TypeScript**, and **Vite**. The main goal of the project was to learn and implement **Zustand** for global state management in a modern React environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Technologies Used
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [pnpm](https://pnpm.io/) - fast, disk-efficient package manager
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Installation
+
+Make sure you have [pnpm](https://pnpm.io/installation) installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into the project directory
+cd your-repo-name
+
+# Install dependencies
+pnpm install
+
+# Run the development server
+pnpm dev
+````
+
+The app will be running at `http://localhost:5173`.
+
+---
+
+## 🗂️ Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── store/          # Zustand state management logic
+├── data/           # Quiz questions and data
+├── App.tsx         # Root component
+└── main.tsx        # Entry point
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Project Goals
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+* Practice and learn how to use **Zustand** for state management.
+* Build a clean and responsive quiz interface to test JavaScript knowledge.
+* Use **Vite** for fast and modern development experience.
+
+---
+
+## 📸 Preview
+
+![Preview](https://imgur.com/a/OxYqF3u)
+
+![Preview](https://imgur.com/a/iMbMqvd)
+
+
+---
+
