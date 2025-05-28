@@ -1,6 +1,4 @@
-Of course! Here's the **English version** of the `README.md` for your JavaScript quiz app using TypeScript, React, Vite, and Zustand:
 
-````markdown
 # JavaScript Quiz App
 
 This project is a simple and interactive **JavaScript quiz application** built with **React**, **TypeScript**, and **Vite**. The main goal of the project was to learn and implement **Zustand** for global state management in a modern React environment.
