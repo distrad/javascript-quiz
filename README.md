@@ -35,19 +35,6 @@ The app will be running at `http://localhost:5173`.
 
 ---
 
-## 🗂️ Project Structure
-
-```
-src/
-├── components/     # Reusable UI components
-├── store/          # Zustand state management logic
-├── data/           # Quiz questions and data
-├── App.tsx         # Root component
-└── main.tsx        # Entry point
-```
-
----
-
 ## 🎯 Project Goals
 
 * Practice and learn how to use **Zustand** for state management.
