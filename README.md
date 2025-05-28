@@ -45,9 +45,9 @@ The app will be running at `http://localhost:5173`.
 
 ## 📸 Preview
 
-![Preview](https://imgur.com/a/OxYqF3u)
+![Preview](https://i.imgur.com/k5a49D9.png)
 
-![Preview](https://imgur.com/a/iMbMqvd)
+![Preview](https://i.imgur.com/mnrBaQ8.png)
 
 
 ---
